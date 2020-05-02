@@ -85,6 +85,7 @@ class Directory extends Component {
                         </button>
                       </div>
                     </div>
+
                   </form>
                   {this.state.employees.length !==
                     this.state.employeesToDisplay.length && (
@@ -92,7 +93,7 @@ class Directory extends Component {
                       className="btn btn-secondary"
                       onClick={this.clearFilter}
                     >
-                      Clear Filter
+                      Clear
                     </button>
                   )}
                 </div>
