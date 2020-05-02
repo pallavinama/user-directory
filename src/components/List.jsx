@@ -6,7 +6,7 @@ const List = (props) => {
   return (
     <div className="container">
       <div className="row">
-        <h1>You have {props.employees.length} employees.</h1>
+        <h1>You have {props.employees.length} Users.</h1>
       </div>
       <div>
 

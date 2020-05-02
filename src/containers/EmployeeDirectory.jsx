@@ -72,7 +72,7 @@ class Directory extends Component {
                           <input
                             type="text"
                             className="form-control"
-                            placeholder="Search employees"
+                            placeholder="Search Users"
                             name="searchTerm"
                             value={this.state.searchTerm}
                             onChange={this.handleChange}
@@ -93,7 +93,7 @@ class Directory extends Component {
                       className="btn btn-secondary"
                       onClick={this.clearFilter}
                     >
-                      Clear
+                      Clear Filter
                     </button>
                   )}
                 </div>
