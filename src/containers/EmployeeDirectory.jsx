@@ -72,7 +72,7 @@ class Directory extends Component {
                           <input
                             type="text"
                             className="form-control"
-                            placeholder="Search Users"
+                            placeholder="Search Users by first Name"
                             name="searchTerm"
                             value={this.state.searchTerm}
                             onChange={this.handleChange}
