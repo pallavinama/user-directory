@@ -15,8 +15,9 @@ class Directory extends Component {
 
       Clear = () => {
         this.setState({
-          employeeFilter: this.state.employees,
-          search: "",
+          // employeeFilter: this.state.employees,
+          employeesToDisplay: this.state.employees,
+          searchTerm: "",
         });
       };
       
@@ -24,7 +25,7 @@ class Directory extends Component {
     getEmployees = () => {
         axios
           .get("https://randomuser.me/api/?results=20")
-        //   .get("http://dummy.restapiexample.com/api/v1/employees")
+      
           .then((response) => {
             this.setState({
               employees: response.data.results,
@@ -85,8 +86,7 @@ class Directory extends Component {
                         </button>
                       </div>
                     </div>
-
-                  </form>
+                </form>
                   {this.state.employees.length !==
                     this.state.employeesToDisplay.length && (
                     <button
@@ -99,6 +99,7 @@ class Directory extends Component {
                 </div>
               </div>
             </div>
+            
             <List employees={this.state.employeesToDisplay} />
           </div>
         );

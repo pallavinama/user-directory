@@ -1,4 +1,3 @@
-  
 import React from "react";
 import Emp from "./Emp";
 
