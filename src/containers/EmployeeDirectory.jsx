@@ -13,7 +13,7 @@ class Directory extends Component {
         this.getEmployees();
       }
 
-      clearFilter = () => {
+      Clear = () => {
         this.setState({
           employeeFilter: this.state.employees,
           search: "",
@@ -91,9 +91,9 @@ class Directory extends Component {
                     this.state.employeesToDisplay.length && (
                     <button
                       className="btn btn-secondary"
-                      onClick={this.clearFilter}
+                      onClick={this.Clear}
                     >
-                      Clear Filter
+                      Clear
                     </button>
                   )}
                 </div>
