@@ -3,9 +3,11 @@ import React from 'react';
 const Home = () => {
     return (
         <div className="container">
-            <div className="row">
+            <div className="row App">
                 <div class="col">
-                    <h1>Welcome to the Employee Tracker!</h1>
+                    <span>
+                    <h1>Welcome to the User Directory Home Page!</h1>
+                    </span>
                 </div>
             </div>
         </div>
