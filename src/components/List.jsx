@@ -14,8 +14,8 @@ const List = (props) => {
                     <thead>
                         <tr>
                             <th scope="col">Avatar</th>
-                            <th scope="col">First</th>
-                            <th scope="col">Last</th>
+                            <th scope="col">First Name</th>
+                           
                             <th scope="col">Email</th>
                             <th scope="col">State</th>
                             <th scope="col">Age</th>
